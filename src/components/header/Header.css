@@ -1,0 +1,141 @@
+.header {
+    width: 100%;
+    height: 44px;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+    position: sticky;
+    transition: all .5s;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.header_show {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: #000;
+    background-color: #000;
+}
+
+.header_container {
+    width: 80%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f5f5f5;
+    margin: 0 auto;
+    /* background: blue; */
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+.header_collection {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    /* display: none; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_collection2 {
+    list-style: none;
+    width: 100%;
+    display: none;
+    /* display: none; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_item {
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.header_item>a {
+    color: #f5f5f7;
+    text-decoration: none;
+}
+
+.header_item:hover {
+    color: #fff;
+    text-shadow: 0px 1px 7px rgba(255, 255, 255, 0.6);
+    /* text-shadow: 1px   #cec8c8; */
+    /* transition: all .2s; */
+}
+
+.header_item>svg {
+    font-size: 22px;
+}
+
+
+.wrapper_hamburger_menu {
+    width: 15px;
+    height: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .5s;
+}
+
+.hamburger_line {
+    width: 100%;
+    height: 15%;
+    transition: all .5s;
+    background-color: #f5f5f5;
+}
+
+.line_one {
+    top: 0;
+}
+
+.line_two {
+    bottom: 0;
+}
+
+.wrapper_hamburger_menu_cloth {
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger_line_one {
+    top: 5px;
+    transform: rotate(-135deg);
+    position: absolute;
+}
+
+.hamburger_line_two {
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .header {
+        width: 90%;
+    }
+
+    .header_collection {
+        display: none;
+    }
+
+    .header_collection2 {
+        display: flex;
+    }
+
+    .header_container {
+        width: 95%;
+    }
+    .header_collection_hamburger {
+        display: flex;
+    }
+}
+ 

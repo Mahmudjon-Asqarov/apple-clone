@@ -1,0 +1,112 @@
+.banner {
+    width: 100%;
+    height: 692px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fbfbfd;
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+
+.banner_text {
+    text-align: center;
+    position: absolute;
+    top: 80px;
+}
+
+.banner_text h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.tone {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.deadle {
+    font-size: 20px;
+    color: grey;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+.wrapper_banner_link {
+    width: 300px;
+    margin: 5px auto;
+    cursor: pointer;
+    font-size: 20px;
+    color: #06c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_link {
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+}
+
+.banner_link>svg {
+    font-size: 15px;
+}
+
+.banner_link:hover {
+    text-decoration: underline;
+}
+
+.banner_img {
+    height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .banner {
+        height: 410px;
+    }
+
+    .banner_text {
+        top: 20px;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+    }
+
+    .tone {
+        font-size: 18px !important;
+        padding: 0;
+    }
+
+    .deadle {
+        font-size: 12px;
+    }
+
+    .wrapper_banner_link {
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .banner_link {
+        font-size: 15px;
+    }
+
+    .banner_link>svg {
+        font-size: 15px;
+    }
+
+    .banner_img {
+        height: 80%;
+        margin-top: 80px;
+    }
+
+    .wrapper_banner_link {
+        width: 200px;
+    }
+
+}

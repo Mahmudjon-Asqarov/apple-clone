@@ -1,0 +1,249 @@
+.mac {
+    width: 100%;
+    background-color: #F5F5F7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mac_header {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.mac_header > ul {
+    width: 70%;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.mac_header > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 116px;
+}
+
+.sale_context {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #F5F5F7;
+}
+
+.sale_context > a {
+    text-decoration: none;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: #0066cc;
+}
+
+.sale_context > a:hover {
+    text-decoration: underline;
+}
+
+.mac_heros {
+    width: 100%;
+    height: 809px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+.mac_heros > h1 {
+    font-size: 58px;
+    margin-top: 50px;
+}
+
+.mac_heros > h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.mac_heros > p {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.mac_heros > .mac_btns {
+    width: 300px;
+    height: 46px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.mac_heros .mac_btns > button {
+   padding: 12px 30px;
+    border-radius: 20px;
+    background-color: #0370E2;
+    border: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.mac_heros .mac_btns > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.mac_heros > span {
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.chose_mac {
+    width: 100%;
+}
+
+.chose_mac > h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.chose_mac .choice_typeofMac {
+    width: 250px;
+    height: 50px;
+    margin: 100px auto;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.choice_typeofMac > span {
+    height: 100%;
+    cursor: pointer;
+}
+
+.macbook {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macbook  .macbook_info {
+    height: 1793px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.macbook_info > button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0370E2;
+    color: #fff;
+}
+
+.macbook_info > a {
+    display: flex;
+    align-items: center;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.macbook_info > a:hover {
+    text-decoration: underline;
+}
+
+.macbook .line {
+    width: 90%;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #D2D2D7;
+}
+
+.mac_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mac_info h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.iMac {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iMac .macbook_info {
+    height: 1793px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iMac .mac_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iMac .macbook_info .line {
+    width: 90%;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #D2D2D7;
+}
+
+.chose_mac .choice_links {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.choice_links > a {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.mac_cash_back {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+}

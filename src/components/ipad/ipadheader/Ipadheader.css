@@ -1,0 +1,35 @@
+.ipad_header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ipad_nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 2rem;
+    background-color: #000;
+}
+.ipad_item {
+    height: 100px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.ipad_img {
+    width: 60px;
+    height: 60px;
+}
+.ipad_item .ipad_name {
+    color: #fff;
+    font-size: 14px;
+}
+.ipad_status {
+    color: orange;
+    font-size: 12px;
+}

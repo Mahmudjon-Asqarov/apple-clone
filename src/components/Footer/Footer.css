@@ -1,0 +1,148 @@
+footer {
+    background-color: #f5f5f7;
+    font-size: 11px;
+    color: #6e6e73;
+    font-family: sans-serif;
+    letter-spacing: .6px;
+    padding-bottom: 50px;
+}
+
+footer>hr {
+    width: 76%;
+    margin: 5px auto;
+}
+
+.wrapper_footer {
+    width: 75%;
+    padding: 15px 0;
+    margin: 0 auto !important;
+    margin-left: 4%;
+    overflow-x: hidden;
+}
+
+.footer_collection_item {
+    list-style: none;
+}
+
+.footer_collection_link {
+    margin: 10px 0;
+    color: #6e6e73;
+}
+
+.wrapper_footer_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_table>thead>tr>td {
+    color: #1d1d1f;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.footer_table>tbody>tr>td {
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+.footer_accordion {
+    width: 95%;
+    display: none;
+    margin: 0 auto;
+}
+
+.accard {
+    display: flex;
+    flex-direction: column;
+}
+
+.accardion_links {
+    text-decoration: none;
+    color: #6e6e73;
+    font-size: 12px !important;
+
+}
+
+.accardion_links:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper_footer_bottom {
+    width: 76%;
+    height: 50px;
+    position: relative;
+}
+
+.wrapper_footer_bottom>hr {
+    margin: 10px 0;
+}
+
+.wrapper_footer_bottom_child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_link_text_bottom {
+    text-decoration: none;
+    color: #06c;
+}
+
+.footer_link_text_bottom:hover {
+    text-decoration: underline;
+}
+
+.footer_bottom_child {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.footer_collection_item_bottom {
+    justify-content: space-between;
+    display: flex;
+    width: 450px;
+    padding-left: 25px;
+}
+
+.footer_link {
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    color: #1d1d1f;
+    text-decoration: underline;
+}
+
+.footer_link_right {
+    width: 100px;
+}
+
+.finish {
+    height: 50px;
+    background-color: #f5f5f7;
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper_footer {
+        width: 90%;
+    }
+
+    footer>hr {
+        display: none;
+    }
+
+    .wrapper_footer_link {
+        display: none;
+    }
+
+    .footer_accordion {
+        display: flex;
+    }
+    .footer_bottom_child{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.home{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+.home_container{
+    width: 100%;
+    max-width: 1850px;
+    margin: 0 auto;
+}

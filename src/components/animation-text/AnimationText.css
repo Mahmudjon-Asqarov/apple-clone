@@ -1,0 +1,78 @@
+.animation_text {
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.animation_text>h1 {
+    font-size: 100px;
+}
+
+.animation_text>h4 {
+    width: 50%;
+    font-size: 22px;
+    opacity: 0;
+    margin: 15px;
+    animation: showUp 0.7s 2.1s linear forwards;
+}
+
+.first_title {
+    opacity: 0;
+    animation: showUp 0.7s linear forwards;
+}
+
+.second_title {
+    opacity: 0;
+    animation: showUp 0.7s 1s linear forwards;
+}
+
+
+@keyframes showUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+.onlyonapple_container {
+    width: 100%;
+    height: 600px;
+}
+
+.appe_mediapps {
+    width: 100%;
+    height: 50px;
+    z-index: 40;
+}
+
+.video_container {
+    position: relative;
+}
+
+.video_info {
+    background-color: red;
+    width: 400px;
+    z-index: 88;
+    position: absolute;
+}
+
+.video_info>svg {
+    font-size: 40px;
+    position: absolute;
+    color: #fff;
+}
+
+.video_autoplay {
+    width: 100%;
+}

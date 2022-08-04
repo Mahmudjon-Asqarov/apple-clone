@@ -1,0 +1,13 @@
+.ipad_wrapper {
+    width: 95%;
+    height: 120vh;
+    margin: 1rem 2rem 0 2rem;
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+.ipad_wrapper .ipad_product_heading{
+    margin: 1rem 0;
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+}

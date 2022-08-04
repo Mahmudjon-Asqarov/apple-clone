@@ -1,0 +1,186 @@
+.store_wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f9;  
+}
+
+.store_title{
+    width: 100%;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.store_title > h1{
+    font-size: 45px;
+}
+.store_title > .title_quote{
+    color: gray;
+}
+.help{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.speacilist_profil > .img > img,
+.visit_link > .img > img{
+    border-radius: 50%;
+    width: 45px;
+    display: flex;
+}
+.speacilist_profil,
+.visit_link{
+    display: flex;
+}
+.p{
+    margin-left: 10px;
+}
+.p > a{
+    text-decoration: none;
+}
+.visit_link{
+    margin-top: 10px;
+}
+.apple_news_title{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+.help_center{
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 200px;
+    background-color: #f7f7f9;
+}
+
+
+.help_container{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    margin-top: 1000px;
+    padding-left: 200px;
+    padding-top: 10px;
+    background-color: #f7f7f9;
+}
+
+.help_container > .first_div{
+    width: 470px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s
+}
+.first_div > h1{
+    position: absolute;
+    font-size: 32px;
+    margin: 20px 20px;
+}
+.first_div > img{
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.second_div{
+    width: 470px;
+    height: 240px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: -500px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s
+}
+.second_div > img{
+    position: absolute;
+    width: 470px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.second_div > h1{
+    position: absolute;
+    z-index: 1;
+    margin: 20px 0px 0px 20px; 
+    font-size: 30px;
+}
+
+.third_div{
+    width: 470px;
+    height: 240px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s
+}
+
+.third_div > img{
+    position: absolute;
+}
+
+.third_div > h1{
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    width: 260px;
+    margin: 60px 0px 0px 20px;
+}
+
+.first_div:hover,
+.second_div:hover,
+.third_div:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 20%);
+    transition: 0.5s;    
+}
+
+.difference{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 1600px;
+    padding-left: 200px;
+    background-color: #f7f7f9;
+}
+
+
+
+
+
+
+
+.difference_content{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 1650px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.difference_content > .content{
+    margin-left: 200px;
+    width: 400px;
+    height: 250px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.content > .icon{
+    font-size: 70px;
+    margin: 20px 0px 0px 20px;
+    color: #3f6eb8;
+}
+.content > p{
+    font-size: 27px;
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: 500;
+}

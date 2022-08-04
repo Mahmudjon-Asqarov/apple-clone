@@ -1,0 +1,61 @@
+.ipad_product_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem 2.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+.ipad_product_card {
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+}
+.ipad_card_heading {
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.ipad_card_heading img {
+    width: auto;
+    height: auto;
+}
+.ipad_card_body .ipad_status {
+    height: 1rem;
+    margin: 0.5rem 0;
+}
+.ipad_color_pallete {
+    margin: 0.5rem 0;
+}
+.ipad_product_title {
+    font-weight: 500;
+}
+.ipad_card_motto {
+    width: 45%;
+    margin: 0.5rem auto;
+}
+.ipad_price{
+    margin: 1rem 0;
+    color: rgb(39, 39, 39);
+    font-size: 16px;
+}
+.order_btn_sm {
+    padding: 0.4rem 1rem;
+    color: #fff;
+    background-color: #0071e3;
+    border-radius: 40px;
+    border: none;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.ipad_product_card:nth-last-of-type(4n+2) .ipad_card_motto,
+.ipad_product_card:nth-last-of-type(4n+3) .ipad_card_motto {
+    width: 65%;
+    margin: 0.5rem auto;
+}
